@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Campo</title>
+	<!--Estilo-->
+	<link rel="stylesheet" type="text/css" href="../css/campo.css">
+	<link rel="icon" type="text/css" href="../img/logo-oficial.png"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <main class="center-cols">
+    <button type="button" class="btn " id="botonAgregar" >
+      <i class="bi bi-flower3"></i></i>
+    </button>
+    <button type="button"  class="btn circulo" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-align-top"></i></i>
+    </button>
+
+    <ul class="dropdown-menu text-center">
+      <label for="coordenadaX">Coordenada X:</label>
+        <input type="number" id="coordenadaX">
+      <br>
+      <label for="coordenadaY">Coordenada Y:</label>
+        <input type="number" id="coordenadaY">
+      <br>
+      <button id="insertar">Sembrar flor</button>
+    </ul>
+
+    <div class="dune dune5"></div>
+    <div class="dune dune4"></div>
+    <div class="dune dune3"></div>
+    <div class="dune dune2"></div>
+    <div class="dune dune1"></div>
+    
+    <div class="flower">
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="center"></div>
+    </div>
+  </main>
+
+	<script type="text/javascript" defer="" src="../js/campo.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>q 
+</body>
+</html>

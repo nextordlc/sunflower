@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Open Sans", sans-serif;
+  font-size: 40px;
+  line-height: 1.6;
+  background: #dbdbdb;
+}
+
+.barra {
+  width: auto;
+  height: 56px;
+  background-color: #28dabc;
+}
+
+.logo {
+  height: 0px;
+}
+
+.icono-menu {
+  color: blue;
+  font-weight: 500;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  padding: 1px 25px;
+  border: solid 3px #591e80;
+  border-radius: 5%;
+  /*codigo para alargar la letra*/
+  display: inline-block;
+}
+
+.letra0 {
+  color: #0c1046;
+  /*codigo para espaciar las letras*/
+  margin: 0px 25px 0px 25px;
+  /*codigo para sombrear las letras*/
+  display: inline-block;
+}
+
+.letra1 {
+  color: #88909b;
+  font-size: 2.1em;
+  margin-right: 40px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  /*codigo para espaciar las letras*/
+  /*codigo para sombrear las letras*/
+  display: inline-block;
+}
+
+.letra2 {
+  position: relative;
+  top: 80px;
+  right: 70%;
+
+  color: #88909b;
+  font-size: 2.1em;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  /*codigo para espaciar las letras*/
+  /*codigo para sombrear las letras*/
+}
+
+.letra3 {
+  position: relative;
+  left: 30%;
+
+  font-weight: bold;
+  font-size: 2em;
+  color: #0c1046;
+  /*codigo para espaciar las letras*/
+  /*codigo para sombrear las letras*/
+}
