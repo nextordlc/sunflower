@@ -9,6 +9,15 @@
     box-sizing: border-box;
 }
 
+.mensaje {
+    text-decoration: none !important;
+    color: #460000 !important;
+}
+
+.mensaje i {
+    color: #eb003b;
+}
+
 .center-cols {
     display: flex;
     justify-content: center;
@@ -24,24 +33,30 @@
 
 #botonAgregar {
     position: fixed;
-    top: 10px;
-    right: 10px;
-    background-color: #fef200;
+    bottom: 20px;
+    right: 20px;
+    z-index: 25;
+    width: 40px;
+    height: 40px;
+    background-color: #fef1001f;
     color: #8e3500;
     border: none;
     border-radius: 27px;
     cursor: pointer;
-    font-size: 25px;
+    padding-bottom: 2px;
 }
 
 .circulo {
     position: fixed;
-    top: 60px;
-    right: 10px;
-    padding: 10px 16px;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
     border-radius: 27px !important;
     cursor: pointer;
-    background-color: #16e01c !important;
+    border: none;
+    background-color: #c9eef1ab !important;
+    color: #fef200 !important;
+    font-size: 20px !important;
 }
 
 main {

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Campo</title>
+	<!--Estilo-->
+	<link rel="stylesheet" type="text/css" href="../css/campo.css">
+	<link rel="icon" type="text/css" href="../img/logo-oficial.png"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <main class="center-cols">
+    <button title="Ver opciones" type="button"  class=" circulo" data-bs-toggle="dropdown" aria-expanded="false">
+      <img style="width: 50px; height: 50px; " src="../img/sol_boton.png" alt="opciones">
+    </button>
+    <button title="Agregar flor" type="button" class="btn " id="botonAgregar" >
+      <img style="width: 200%; height: 100%; margin-left: -7px;" src="../img/girasol_boton.png" alt="boton para agregar girasoles">
+    </button>
+
+    <ul class="dropdown-menu text-center">
+      <li>Acciones <br></li>
+      <li>
+        <div class="card card-body">
+          <label for="coordenadaX">Coordenada X:</label>
+          <input type="number" id="coordenadaX">
+          <label for="coordenadaY">Coordenada Y:</label>
+          <input type="number" id="coordenadaY">
+          <button class="mt-3" id="insertar">Sembrar Girasol</button>
+        </div>
+      </li>
+      <li>
+        <div class="card card-body">
+          <button class="mensaje" id="floraleatoria">Sembrar Flor Aleatoria</button>
+        </div>
+      </li>
+      <li>
+        <div class="card card-body">
+          <button class="mensaje" id="limpiarcampo">Limpiar campo</button>
+        </div>
+      </li>
+      <li class="mt-2">
+        <a class="mensaje" href="./migenchytauwu.html" target="_blank">Mensaje para mi mor <i class="bi bi-envelope-heart"></i></a>
+        <hr>
+      </li>
+      <li class="mt-2 mb-2 ">
+        <a class="mensaje" href="../index.html" >Regresar a la página de inicio</a>
+      </li>
+    </ul>
+
+    <div class="dune dune5"></div>
+    <div class="dune dune4"></div>
+    <div class="dune dune3"></div>
+    <div class="dune dune2"></div>
+    <div class="dune dune1"></div>
+    
+    <div class="flower">
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="center"></div>
+    </div>
+  </main>
+
+	<script type="text/javascript" defer="" src="../js/campo.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
