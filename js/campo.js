@@ -19,6 +19,9 @@ var flores = [
     },
     {
         flor: "https://cdn.pixabay.com/photo/2020/01/28/08/22/sunflower-4799169_1280.png"
+    },
+    {
+        flor: "https://i.giphy.com/Q2zB96L71pf4x3DPQ4.webp"
     }
 ];
 
@@ -40,6 +43,9 @@ var floresAll = [
     },
     {
         flor: "https://cdn.pixabay.com/photo/2017/02/01/00/19/floral-2028499_1280.png"
+    },
+    {
+        flor: "https://i.giphy.com/Q2zB96L71pf4x3DPQ4.webp"
     }
 ];
 
